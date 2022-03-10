@@ -26,3 +26,4 @@ Restore the settings of
   - [ ] rclone
   - [ ] trash (cli)
   - [ ] spectacle (screenshot)
+  - [ ] appimagelauncher for obsidian
