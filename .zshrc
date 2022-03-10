@@ -1,0 +1,3 @@
+
+
+source ./scripts/aliases.sh
