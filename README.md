@@ -23,4 +23,6 @@ Restore the settings of
   - [ ] blender
   - [ ] gimp
   - [ ] microsoft teams
-  - [ ] 
+  - [ ] rclone
+  - [ ] trash (cli)
+  - [ ] spectacle (screenshot)
