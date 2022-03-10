@@ -3,6 +3,13 @@ Restore the settings of
 
 - [ ] vscode
 - [ ] zsh
+  - [ ] zsh-autosuggestions
+  - [ ] zsh-syntax-highlighting
+  - [ ] zsh-prompt
+- [ ] vim
+- [ ] tmux
+- [ ] git
+- [ ] rclone
 
 
 # after a system install
@@ -27,3 +34,4 @@ Restore the settings of
   - [ ] trash (cli)
   - [ ] spectacle (screenshot)
   - [ ] appimagelauncher for obsidian
+  
