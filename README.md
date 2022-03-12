@@ -16,6 +16,10 @@ Restore the settings of
 - [ ] install optimization repository 
 - [ ] install rclone backup script
 - [ ] clone all the repositories that are not archived
+- [ ] install these python packages
+  - [ ] kaggle-cli
+  - [ ] animdl
+  - [ ] tensorflow / pytorch / scipy / sklearn
 - [ ] install all these programs
   - [ ] pyenv
   - [ ] discord
