@@ -25,6 +25,7 @@ Restore the settings of
   - [ ] discord
   - [ ] libreoffice
   - [ ] chrome
+  - [ ] zotero
   - [ ] obsidian
   - [ ] gitkraken / github desktop
   - [ ] zsh
