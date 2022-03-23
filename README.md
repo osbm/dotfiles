@@ -23,6 +23,7 @@ Restore the settings of
 - [ ] install all these programs
   - [ ] pyenv
   - [ ] discord
+  - [ ] etcher
   - [ ] libreoffice
   - [ ] chrome
   - [ ] zotero
