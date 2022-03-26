@@ -11,6 +11,9 @@ Restore the settings of
 - [ ] git
 - [ ] rclone
 
+Also I should configure the git 
+git config --global user.name
+git config --global user.email
 
 # after a system install
 - [ ] install optimization repository 
