@@ -11,6 +11,8 @@ Restore the settings of
 - [ ] git
 - [ ] rclone
 
+On android bashrc file is at `/data/data/com.termux/files/usr/etc/bash.bashrc`
+
 Also I should configure the git 
 git config --global user.name
 git config --global user.email
