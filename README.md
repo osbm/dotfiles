@@ -1,19 +1,29 @@
 # dotfiles
-Restore the settings of
+
+To install the z-shell configuration to your system:
+
+```
+echo 'source ~/Documents/GitHub/dotfiles/.zshrc' >> ~/.zshrc
+```
+
+
+## after initial installation
+
+```
+git config --global user.name "osbm"
+git config --global user.email "osmanfbayram@gmail.com"
+
+git config --global credential.helper store
+```
 
 - [ ] vscode
 - [ ] zsh
   - [ ] zsh-autosuggestions
   - [ ] zsh-syntax-highlighting
   - [ ] zsh-prompt
-- [ ] vim
 - [ ] tmux
 - [ ] git
 - [ ] rclone
-
-Also I should configure the git 
-git config --global user.name
-git config --global user.email
 
 # after a system install
 - [ ] install optimization repository 
@@ -21,8 +31,7 @@ git config --global user.email
 - [ ] clone all the repositories that are not archived
 - [ ] install these python packages
   - [ ] kaggle-cli
-  - [ ] animdl
-  - [ ] tensorflow / pytorch / scipy / sklearn
+  - [ ] `pip install osbm`
 - [ ] install all these programs
   - [ ] pyenv
   - [ ] discord
