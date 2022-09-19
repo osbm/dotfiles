@@ -7,7 +7,7 @@ alias gitdir="cd ~/Documents/GitHub"
 alias gpuname="nvidia-smi --query-gpu=name --format=csv,noheader"
 alias py="ipython"
 
-alias l="ls -la"
+alias l="ls -lFha"
 
 
 # sort according to size
