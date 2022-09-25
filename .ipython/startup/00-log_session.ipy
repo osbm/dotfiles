@@ -1,0 +1,13 @@
+"""
+This script will be in the IPython startup directory and will be run before the session starts.
+"""
+
+from IPython import get_ipython
+from datetime import datetime
+
+ipython = get_ipython()
+
+filename = '/home/osman/Documents/ipython_sessions/'
+filename += datetime.now().strftime('%Y-%m-%d_%H-%M-%S') + '.ipy'
+
+ipython.magic('logstart -o ' + filename)
