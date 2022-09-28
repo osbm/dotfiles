@@ -13,7 +13,8 @@ echo 'source ~/Documents/GitHub/dotfiles/.zshrc' >> ~/.zshrc
 git config --global user.name "osbm"
 git config --global user.email "osmanfbayram@gmail.com"
 
-git config --global credential.helper store
+git config --global credential.helper store # store secrets
+git config --global core.pager cat          # use cat for outputs
 ```
 
 - [ ] vscode
@@ -26,7 +27,7 @@ git config --global credential.helper store
 - [ ] rclone
 
 # after a system install
-- [ ] install optimization repository 
+- [ ] install optimization repository
 - [ ] install rclone backup script
 - [ ] clone all the repositories that are not archived
 - [ ] install these python packages
@@ -52,4 +53,4 @@ git config --global credential.helper store
   - [ ] trash (cli)
   - [ ] spectacle (screenshot)
   - [ ] appimagelauncher for obsidian
-  
+
