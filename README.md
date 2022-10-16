@@ -15,6 +15,9 @@ git config --global user.email "osmanfbayram@gmail.com"
 
 git config --global credential.helper store # store secrets
 git config --global core.pager cat          # use cat for outputs
+
+git config --global push.autoSetupRemote true  # automatically set upstream
+
 ```
 
 - [ ] vscode
