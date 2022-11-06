@@ -8,6 +8,6 @@ from datetime import datetime
 ipython = get_ipython()
 
 filename = '/home/osman/Documents/ipython_sessions/'
-filename += datetime.now().strftime('%Y-%m-%d_%H-%M-%S') + '.ipy'
+filename += datetime.now().strftime('%Y-%m-%d_%H-%M-%S') + '.py'
 
 ipython.magic('logstart -o ' + filename)
