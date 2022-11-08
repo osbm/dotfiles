@@ -18,6 +18,7 @@ git config --global core.pager cat          # use cat for outputs
 
 git config --global push.autoSetupRemote true  # automatically set upstream
 
+git config --global init.defaultBranch main    # set main as default branch
 ```
 
 - [ ] vscode
