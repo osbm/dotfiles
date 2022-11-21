@@ -45,7 +45,6 @@ git config --global init.defaultBranch main    # set main as default branch
   - [ ] chrome
   - [ ] zotero
   - [ ] obsidian
-  - [ ] gitkraken / github desktop
   - [ ] zsh
   - [ ] ani-cli / animdl
   - [ ] vscode
