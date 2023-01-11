@@ -9,18 +9,6 @@ echo 'source ~/Documents/GitHub/dotfiles/.zshrc' >> ~/.zshrc
 
 ## after initial installation
 
-```
-git config --global user.name "osbm"
-git config --global user.email "osmanfbayram@gmail.com"
-
-git config --global credential.helper store # store secrets
-git config --global core.pager cat          # use cat for outputs
-
-git config --global push.autoSetupRemote true  # automatically set upstream
-
-git config --global init.defaultBranch main    # set main as default branch
-```
-
 - [ ] vscode
 - [ ] zsh
   - [ ] zsh-autosuggestions
@@ -57,3 +45,9 @@ git config --global init.defaultBranch main    # set main as default branch
   - [ ] spectacle (screenshot)
   - [ ] appimagelauncher for obsidian
 
+Things to add.
+
+- programs to install
+- programs to configure
+- shell scripts to run
+- dotfiles to copy
