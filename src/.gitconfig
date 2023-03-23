@@ -1,0 +1,12 @@
+[user]
+    name = osbm
+    email = osmanfbayram@gmail.com
+[credential]
+    helper = store
+[core]
+    pager = cat
+    editor = nano
+[push]
+    autoSetupRemote = true
+[init]
+    defaultBranch = main
