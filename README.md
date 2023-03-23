@@ -10,7 +10,7 @@ make
 Needed applications:
 - i3
 - git
-- obsidian
+- obsidian from [this link](https://github.com/obsidianmd/obsidian-releases/releases/latest)
 - pyenv
 - dex
 - AppImageLauncher
