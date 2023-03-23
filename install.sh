@@ -20,3 +20,4 @@ link_file() {
 link_file .zshrc ~
 link_file .zprofile ~
 link_file .gitconfig ~
+link_file .config/i3-scrot.conf ~/.config
