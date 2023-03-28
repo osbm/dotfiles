@@ -23,6 +23,7 @@ alias fastping="ping -c 100 -i 0.2"
 alias gpuname="nvidia-smi --query-gpu=name --format=csv,noheader"
 alias screenshot="import -window root ~/Pictures/screenshots/$(date +%Y-%m-%d_%H-%M-%S).png"
 alias terraria="dex ~/.local/share/applications/Terraria.desktop"
+alias open="xdg-open"
 
 alias py="ipython"
 alias ve="python -m venv .venv"
