@@ -47,3 +47,4 @@ link_file .config/i3-scrot.conf ~/.config
 link_file .config/nitrogen/ ~/.config/
 link_file .config/flameshot/ ~/.config/
 link_file .config/polybar/ ~/.config/
+link_file .config/alacritty/ ~/.config/
