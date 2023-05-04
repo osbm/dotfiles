@@ -28,5 +28,25 @@
         "is_default_search": true,
         "run_without_argument": false,
         "added": 1682594307.2076108
+    },
+    "3738bb22-9a4c-47b1-9a89-8649d223d403": {
+        "id": "3738bb22-9a4c-47b1-9a89-8649d223d403",
+        "name": "kaggle",
+        "keyword": "kaggle",
+        "cmd": "https://www.kaggle.com/search?q=%s",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1683231107.813866
+    },
+    "6ab80ad7-e3aa-4895-afb9-6124cc752c13": {
+        "id": "6ab80ad7-e3aa-4895-afb9-6124cc752c13",
+        "name": "Github",
+        "keyword": "gh",
+        "cmd": "https://github.com/search?q=%s&type=repositories",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1683231204.1199598
     }
 }

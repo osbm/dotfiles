@@ -5,5 +5,12 @@
         "updated_at": "2023-05-04T21:15:04.188711",
         "last_commit": "2d3fe82fe1e38670e6eb8887cd2a4b4d1c2baa79",
         "last_commit_time": "2023-03-25T08:07:41"
+    },
+    "com.github.pwnyprod.ulauncher-ipcopy": {
+        "id": "com.github.pwnyprod.ulauncher-ipcopy",
+        "url": "https://github.com/pwnyprod/ulauncher-ipcopy",
+        "updated_at": "2023-05-04T23:15:18.346995",
+        "last_commit": "7d5b328cad58dfda8ea613803f66bffa3c62b57f",
+        "last_commit_time": "2021-12-07T08:51:15"
     }
 }
