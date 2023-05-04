@@ -48,3 +48,4 @@ link_file .config/nitrogen/ ~/.config/
 link_file .config/flameshot/ ~/.config/
 link_file .config/polybar/ ~/.config/
 link_file .config/alacritty/ ~/.config/
+link_file .config/ulauncher/ ~/.config/
