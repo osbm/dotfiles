@@ -44,6 +44,7 @@ link_file .zprofile ~
 link_file .gitconfig ~
 link_file .i3/ ~/
 link_file .config/i3-scrot.conf ~/.config
+link_file .config/picom.conf ~/.config
 link_file .config/nitrogen/ ~/.config/
 link_file .config/flameshot/ ~/.config/
 link_file .config/polybar/ ~/.config/
