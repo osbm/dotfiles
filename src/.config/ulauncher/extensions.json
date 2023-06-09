@@ -12,5 +12,19 @@
         "updated_at": "2023-05-04T23:15:18.346995",
         "last_commit": "7d5b328cad58dfda8ea613803f66bffa3c62b57f",
         "last_commit_time": "2021-12-07T08:51:15"
+    },
+    "com.github.ulauncher.ulauncher-emoji": {
+        "id": "com.github.ulauncher.ulauncher-emoji",
+        "url": "https://github.com/Ulauncher/ulauncher-emoji",
+        "updated_at": "2023-05-05T19:13:11.640913",
+        "last_commit": "4c6af50d1c9a24d5aad2c597634ff0c634972a5c",
+        "last_commit_time": "2021-08-08T19:19:59"
+    },
+    "com.github.osbm.vscode-launcher": {
+        "id": "com.github.osbm.vscode-launcher",
+        "url": "https://github.com/osbm/vscode-launcher",
+        "updated_at": "2023-05-12T19:46:17.783883",
+        "last_commit": "7ccda915afc99dc792ea0a1b4b158a598c5f26d9",
+        "last_commit_time": "2023-05-12T16:46:10"
     }
 }
