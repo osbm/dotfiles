@@ -60,3 +60,7 @@ sound() {
 export CUDA_HOME=/usr/local/cuda-12.1/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-12.1/lib64
 export PATH=$PATH:$CUDA_HOME/bin
+
+# pyenv for java
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
