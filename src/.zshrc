@@ -28,6 +28,8 @@ alias open="xdg-open"
 alias py="ipython"
 alias ve="python -m venv .venv"
 alias va="source ./.venv/bin/activate"
+alias pipu="pip install --upgrade pip"
+alias pipr="pip install -r requirements.txt"
 
 # human readable sizes
 alias free="free -h"
