@@ -39,6 +39,7 @@ link_file() {
   ln -s ~/Documents/GitHub/dotfiles/src/$1 $2
 }
 
+link_file .config/tmux/tmux.conf ~/.config/tmux
 link_file .zshrc ~
 link_file .zprofile ~
 link_file .gitconfig ~
