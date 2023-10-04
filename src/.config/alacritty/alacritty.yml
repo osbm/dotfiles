@@ -454,7 +454,13 @@ window:
 #  program: /bin/bash
 #  args:
 #    - --login
-
+shell:
+  program: /usr/bin/tmux
+  args:
+    - new-session
+    - -A
+    - -s
+    - general
 # Startup directory
 #
 # Directory the shell is started in. If this is unset, or `None`, the working

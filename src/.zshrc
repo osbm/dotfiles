@@ -62,7 +62,7 @@ source ~/Documents/GitHub/dotfiles/src/.config/z.sh
 
 export CUDA_HOME=/opt/cuda-11.7
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/cuda-11.7/lib64
-# export PATH=$PATH:$CUDA_HOME/bin
+export PATH=$PATH:$CUDA_HOME/bin
 
 # pyenv for java
 # export PATH="$HOME/.jenv/bin:$PATH"
