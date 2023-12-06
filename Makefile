@@ -8,4 +8,4 @@ clone:
 	git clone https://github.com/osbm/wallpapers.git ~/Pictures/wallpapers
 
 install-programs-pacman:
-	sudo pacman -S tmux alacritty flameshot trash-cli git
+	sudo pacman -S tmux alacritty flameshot trash-cli git git-lfs
