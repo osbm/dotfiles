@@ -35,19 +35,16 @@ link_file() {
     rm -rf ~/$1
   fi
 
-  echo "Linking ~/$1 to ~/Documents/GitHub/dotfiles/src/$1"
-  ln -s ~/Documents/GitHub/dotfiles/src/$1 $2
+  echo "LLinking ~/Documents/dotfiles/src/$1 to $2"
+  ln -s ~/Documents/dotfiles/src/$1 $2
 }
 
-link_file .config/tmux/tmux.conf ~/.config/tmux
+
 link_file .zshrc ~
 link_file .zprofile ~
 link_file .gitconfig ~
-link_file .i3/ ~/
-link_file .config/i3-scrot.conf ~/.config
-link_file .config/picom.conf ~/.config
-link_file .config/nitrogen/ ~/.config/
 link_file .config/flameshot/ ~/.config/
-link_file .config/polybar/ ~/.config/
 link_file .config/alacritty/ ~/.config/
-link_file .config/ulauncher/ ~/.config/
+
+git clone https://github.com/tmux-plugins/tpm src/.config/tmux/plugins/tpm
+link_file .config/tmux/ ~/.config/
