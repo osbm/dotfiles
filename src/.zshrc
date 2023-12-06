@@ -58,7 +58,7 @@ sound() {
   done
 }
 
-source ~/Documents/GitHub/dotfiles/src/.config/z.sh
+source ~/Documents/dotfiles/src/.config/z.sh
 
 export CUDA_HOME=/opt/cuda-11.7
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/cuda-11.7/lib64
