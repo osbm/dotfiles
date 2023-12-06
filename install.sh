@@ -8,7 +8,7 @@ cd "$(dirname "$0")"
 mkdir -p ~/Documents/GitHub
 mkdir -p ~/Documents/temp
 mkdir -p ~/Pictures/screenshots
-mkdir -p ~/Documents/tempdir/old_config_files
+mkdir -p ~/Documents/temp/old_config_files
 
 link_file() {
   # if that file exists, move it to the temp folder
