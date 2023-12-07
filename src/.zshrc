@@ -12,8 +12,6 @@ if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
 fi
 
 # --------------- Add aliases ---------------
-alias gitdir="cd ~/Documents/GitHub"
-alias tempdir="cd ~/Documents/temp"
 
 alias l="ls -lFha"
 alias la="ls -a"
