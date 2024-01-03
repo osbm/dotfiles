@@ -1,0 +1,11 @@
+[font]
+size = 8.0
+
+[shell]
+args = ["new-session", "-A", "-s", "general"]
+program = "/usr/bin/tmux"
+
+[window]
+decorations = "None"
+opacity = 0.8
+startup_mode = "Maximized"
