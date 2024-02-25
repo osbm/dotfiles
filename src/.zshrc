@@ -38,6 +38,10 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
+alias docker-stop="docker stop $(docker ps -a -q)"
+alias docker-rm="docker rm $(docker ps -aq)"
+alias docker-rmi="docker rmi $(docker images -q)"
+
 # to set the default editor to nano
 FCEDIT=nano
 
