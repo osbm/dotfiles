@@ -94,7 +94,7 @@ in {
       firefox
       kate
       vscode
-      alacritty
+      # alacritty
       mpv
       
       
@@ -118,15 +118,36 @@ in {
     neofetch
     git
     pciutils
+    tmux
     pyenv
     zoxide
     tlrc
     python3
     steam
     steam-run
+    tmuxPlugins.sensible
+    tmuxPlugins.dracula
+    unstable.alacritty
     unstable.obsidian
     unstable.ani-cli
   ];
+
+
+  # This is using a rec (recursive) expression to set and access XDG_BIN_HOME within the expression
+  # For more on rec expressions see https://nix.dev/tutorials/first-steps/nix-language#recursive-attribute-set-rec
+  environment.sessionVariables = rec {
+    XDG_CACHE_HOME  = "$HOME/.cache";
+    XDG_CONFIG_HOME = "$HOME/.config";
+    XDG_DATA_HOME   = "$HOME/.local/share";
+    XDG_STATE_HOME  = "$HOME/.local/state";
+
+    # Not officially in the specification
+    XDG_BIN_HOME    = "$HOME/.local/bin";
+    PATH = [ 
+      "${XDG_BIN_HOME}"
+    ];
+  };
+
   
 
   virtualisation.docker.enable = true;
@@ -134,7 +155,23 @@ in {
     enable = true;
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
     dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
-  };  
+  };
+
+  # programs.tmux = { # doesnt work
+  #   enable = true;
+  #   extraConfig = ''
+  #     set -g prefix C-s
+  #     set -g base-index 1
+  #     setw -g pane-base-index 1
+
+  #     set -g mouse on
+
+  #     # Set new panes to open in current directory
+  #     bind c new-window -c "#{pane_current_path}"
+  #     bind '"' split-window -c "#{pane_current_path}"
+  #     bind % split-window -h -c "#{pane_current_path}"
+  #   '';
+  # };
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
