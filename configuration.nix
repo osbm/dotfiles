@@ -119,6 +119,8 @@ in {
     git
     pciutils
     pyenv
+    zoxide
+    tlrc
     python3
     steam
     steam-run
