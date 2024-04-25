@@ -123,6 +123,10 @@ in {
     zoxide
     tlrc
     python3
+    fish
+    gnumake
+    gcc
+    cudatoolkit
     steam
     steam-run
     tmuxPlugins.sensible
@@ -156,6 +160,16 @@ in {
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
     dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
   };
+
+
+  # from https://github.com/grahamc/nixos-cuda-example/blob/master/configuration.nix
+  services.xserver.videoDrivers = [ "nvidia" ];
+
+  systemd.services.nvidia-control-devices = {
+    wantedBy = [ "multi-user.target" ];
+    serviceConfig.ExecStart = "${pkgs.linuxPackages.nvidia_x11.bin}/bin/nvidia-smi";
+  };
+  # programs.bash.
 
   # programs.tmux = { # doesnt work
   #   enable = true;
