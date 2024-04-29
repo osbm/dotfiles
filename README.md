@@ -1,16 +1,11 @@
 # To Install my system
 
 ```
-git clone https://github.com/osbm/dotfiles.git ~/Documents/GitHub/dotfiles
-cd ~/Documents/GitHub/dotfiles
-make 
+git clone https://github.com/osbm/dotfiles.git ~/Documents/dotfiles
+# installation must be done without flakes for now
+
 ```
 
 
-Needed applications:
-- i3
-- git
-- obsidian from [this link](https://github.com/obsidianmd/obsidian-releases/releases/latest)
-- pyenv
-- dex
-- AppImageLauncher
+
+sudo nix-env --list-generations --profile /nix/var/nix/profiles/system

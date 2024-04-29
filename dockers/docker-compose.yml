@@ -1,0 +1,24 @@
+
+name: docker-builder
+
+
+services:
+  py12:
+    image: py12
+    build:
+      context: ./pyenv
+      args:
+        PYTHON_VERSION: 3.12.3
+  py13:
+    image: py13
+    build: 
+      context: ./pyenv
+      args:
+        PYTHON_VERSION: 3.12.3
+  yt:
+    image: yt
+    build:
+      context: ./yt
+
+  
+    

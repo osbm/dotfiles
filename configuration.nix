@@ -90,6 +90,7 @@ in {
     isNormalUser = true;
     description = "osbm";
     extraGroups = [ "networkmanager" "wheel" "docker"];
+    # shell = pkgs.fish; # dont change default shell i just need fish to be default in alacritty
     packages = with pkgs; [
       firefox
       kate
@@ -126,7 +127,9 @@ in {
     fish
     gnumake
     gcc
-    cudatoolkit
+    noto-fonts-cjk-sans
+    libreoffice
+    # cudatoolkit
     steam
     steam-run
     tmuxPlugins.sensible
@@ -163,29 +166,46 @@ in {
 
 
   # from https://github.com/grahamc/nixos-cuda-example/blob/master/configuration.nix
-  services.xserver.videoDrivers = [ "nvidia" ];
+  # services.xserver.videoDrivers = [ "nvidia" ];
 
-  systemd.services.nvidia-control-devices = {
-    wantedBy = [ "multi-user.target" ];
-    serviceConfig.ExecStart = "${pkgs.linuxPackages.nvidia_x11.bin}/bin/nvidia-smi";
-  };
+  # systemd.services.nvidia-control-devices = {
+  #   wantedBy = [ "multi-user.target" ];
+  #   serviceConfig.ExecStart = "${pkgs.linuxPackages.nvidia_x11.bin}/bin/nvidia-smi";
+  # };
   # programs.bash.
 
-  # programs.tmux = { # doesnt work
-  #   enable = true;
-  #   extraConfig = ''
-  #     set -g prefix C-s
-  #     set -g base-index 1
-  #     setw -g pane-base-index 1
+  programs.tmux = { # doesnt work
+    enable = true;
+    # shell = "${pkgs.fish}/bin/fish";
+    # terminal = "tmux-256color";
+    historyLimit = 100000;
+    plugins = with pkgs;
+      [
+        # {
+        #   plugin = tmuxPlugins.dracula;
+        #   extraConfig = "set -g @dracula-plugins 'cpu-usage ram-usage battery time'";
+        # }
+        tmuxPlugins.dracula
+        tmuxPlugins.sensible
+        
+    ];
+    extraConfig = ''
+      set -g prefix C-s
+      set -g base-index 1
+      setw -g pane-base-index 1
+      set-option -g default-shell ${pkgs.fish}/bin/fish
+      set -g mouse on
 
-  #     set -g mouse on
+      # plugins
+      set -g @dracula-plugins "cpu-usage ram-usage battery time"
+      set -g @dracula-show-timezone false
 
-  #     # Set new panes to open in current directory
-  #     bind c new-window -c "#{pane_current_path}"
-  #     bind '"' split-window -c "#{pane_current_path}"
-  #     bind % split-window -h -c "#{pane_current_path}"
-  #   '';
-  # };
+      # Set new panes to open in current directory
+      bind c new-window -c "#{pane_current_path}"
+      bind '"' split-window -c "#{pane_current_path}"
+      bind % split-window -h -c "#{pane_current_path}"
+    '';
+  };
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
