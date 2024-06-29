@@ -97,8 +97,8 @@ in {
       vscode
       # alacritty
       mpv
-      
-      
+      qbittorrent
+      discord
     #  obsidian
     #  thunderbird
     ];
@@ -118,6 +118,8 @@ in {
     trash-cli
     neofetch
     git
+    git-lfs
+    tree
     pciutils
     tmux
     pyenv
