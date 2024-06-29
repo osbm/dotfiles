@@ -7,5 +7,5 @@ program = "/run/current-system/sw/bin/tmux"
 
 [window]
 decorations = "None"
-opacity = 0.8
+opacity = 1
 startup_mode = "Maximized"
