@@ -6,7 +6,7 @@ clone:
 	git clone https://github.com/osbm/wallpapers.git ~/Pictures/wallpapers
 
 install-programs-pacman:
-	sudo pacman -S tmux alacritty trash-cli git git-lfs spectacle unzip docker docker-compose
+	sudo pacman -S tmux alacritty trash-cli git git-lfs spectacle unzip docker docker-compose pyenv
 
 link:
 	ln -sf /home/osbm/Documents/dotfiles/src/.gitconfig ~/.gitconfig
