@@ -11,6 +11,7 @@ install-programs-pacman:
 link:
 	ln -sf /home/osbm/Documents/dotfiles/src/.gitconfig ~/.gitconfig
 	ln -sf /home/osbm/Documents/dotfiles/src/.config/alacritty/ ~/.config/alacritty
+	ln -sf /home/osbm/Documents/dotfiles/src/.config/fish/ ~/.config/fish
 	ln -sf /home/osbm/Documents/dotfiles/src/.config/tmux ~/.config/tmux
 	git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
 	echo "Dont forget to install tmux plugins by `C-s I`"
