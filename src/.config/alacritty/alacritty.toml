@@ -3,7 +3,7 @@ size = 8.0
 
 [shell]
 args = ["new-session", "-A", "-s", "general"]
-program = "/run/current-system/sw/bin/tmux"
+program = "/usr/bin/tmux"
 
 [window]
 decorations = "None"
