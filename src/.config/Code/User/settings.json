@@ -1,0 +1,10 @@
+{
+    "window.dialogStyle": "custom",
+    "window.titleBarStyle": "custom",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
+    "explorer.confirmDragAndDrop": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "extensions.ignoreRecommendations": true
+}

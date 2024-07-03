@@ -19,11 +19,14 @@ link:
 	rm -rf ~/.config/alacritty
 	rm -rf ~/.config/fish
 
-	ln -sf $(DOTFILES_DIR)/.gitconfig ~/.gitconfig
 	ln -sf $(DOTFILES_DIR)/.config/alacritty/ ~/.config/alacritty
 	ln -sf $(DOTFILES_DIR)/.config/fish/ ~/.config/fish
-	ln -sf $(DOTFILES_DIR)/.config/tmux/tmux.conf ~/.config/tmux/tmux.conf
+
+	ln -sf $(DOTFILES_DIR)/.gitconfig ~/.gitconfig
 	ln -sf $(DOTFILES_DIR)/.ssh/config ~/.ssh/config
+	ln -sf $(DOTFILES_DIR)/.config/tmux/tmux.conf ~/.config/tmux/tmux.conf
+	ln -sf $(DOTFILES_DIR)/.config/Code/User/settings.json ~/.config/Code/User/settings.json
+	
 	
 
 install-tpm:
