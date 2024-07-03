@@ -1,4 +1,4 @@
-# all: 
+DOTFILES_DIR := /home/osbm/Documents/dotfiles/src
 
 
 clone:
@@ -9,11 +9,16 @@ install-programs-pacman:
 	sudo pacman -S tmux alacritty trash-cli git git-lfs spectacle unzip docker docker-compose pyenv libreoffice-still obsidian
 
 link:
-	ln -sf /home/osbm/Documents/dotfiles/src/.gitconfig ~/.gitconfig
-	ln -sf /home/osbm/Documents/dotfiles/src/.config/alacritty/ ~/.config/alacritty
-	ln -sf /home/osbm/Documents/dotfiles/src/.config/fish/ ~/.config/fish
-	ln -sf /home/osbm/Documents/dotfiles/src/.config/tmux ~/.config/tmux
-	ln -sf /home/osbm/Documents/dotfiles/src/.ssh/config ~/.ssh/config
+	# delete directories if they exist
+	rm -rf ~/.config/alacritty
+	rm -rf ~/.config/fish
+
+	ln -sf $(DOTFILES_DIR)/.gitconfig ~/.gitconfig
+	ln -sf $(DOTFILES_DIR)/.config/alacritty/ ~/.config/alacritty
+	ln -sf $(DOTFILES_DIR)/.config/fish/ ~/.config/fish
+	ln -sf $(DOTFILES_DIR)/.config/tmux/tmux.conf ~/.config/tmux/tmux.conf
+	ln -sf $(DOTFILES_DIR)/.ssh/config ~/.ssh/config
+	
 
 install-tpm:
 	git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
