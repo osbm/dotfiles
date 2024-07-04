@@ -12,7 +12,7 @@ make-directories:
 	mkdir -p ~/Documents/temp	
 
 install-programs-pacman:
-	sudo pacman -S tmux alacritty trash-cli git git-lfs spectacle unzip docker docker-compose pyenv libreoffice-still obsidian
+	sudo pacman -S tmux alacritty trash-cli git git-lfs spectacle unzip docker docker-compose pyenv libreoffice-still obsidian tlrc
 
 link:
 	# delete directories if they exist
@@ -26,6 +26,7 @@ link:
 	ln -sf $(DOTFILES_DIR)/.ssh/config ~/.ssh/config
 	ln -sf $(DOTFILES_DIR)/.config/tmux/tmux.conf ~/.config/tmux/tmux.conf
 	ln -sf $(DOTFILES_DIR)/.config/Code/User/settings.json ~/.config/Code/User/settings.json
+	ln -sf $(DOTFILES_DIR)/.config/tlrc/config.toml ~/.config/tlrc/config.toml
 	
 	
 
