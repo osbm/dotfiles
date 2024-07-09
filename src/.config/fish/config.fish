@@ -9,6 +9,8 @@ if status is-interactive
     # d - detail view
     set -x NNN_OPTS Hd
 
+    alias du='du -h'
+    alias df='df -h'
 
     pyenv init - | source
     zoxide init fish | source
