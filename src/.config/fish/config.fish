@@ -11,6 +11,9 @@ if status is-interactive
 
     alias du='du -h'
     alias df='df -h'
+    
+    alias ve="python -m venv .venv"
+    alias va="source .venv/bin/activate.fish"
 
     pyenv init - | source
     zoxide init fish | source
