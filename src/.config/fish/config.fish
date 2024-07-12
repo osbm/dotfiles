@@ -11,7 +11,8 @@ if status is-interactive
 
     alias du='du -h'
     alias df='df -h'
-    
+    alias free='free -h'
+
     alias ve="python -m venv .venv"
     alias va="source .venv/bin/activate.fish"
 
