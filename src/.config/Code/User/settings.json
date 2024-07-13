@@ -6,5 +6,6 @@
     "git.suggestSmartCommit": false,
     "explorer.confirmDragAndDrop": false,
     "github.copilot.editor.enableAutoCompletions": true,
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.defaultProfile.linux": "fish"
 }
