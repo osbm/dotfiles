@@ -15,6 +15,8 @@ if status is-interactive
 
     alias ve="python -m venv .venv"
     alias va="source .venv/bin/activate.fish"
+    alias pipr="pip install -r requirements.txt"
+    alias pipu="pip install --upgrade pip"
 
     pyenv init - | source
     zoxide init fish | source
