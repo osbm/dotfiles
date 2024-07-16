@@ -7,5 +7,7 @@
     "explorer.confirmDragAndDrop": false,
     "github.copilot.editor.enableAutoCompletions": true,
     "extensions.ignoreRecommendations": true,
-    "terminal.integrated.defaultProfile.linux": "fish"
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.iconTheme": "vscode-icons"
 }
