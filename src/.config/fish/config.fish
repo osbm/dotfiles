@@ -13,6 +13,8 @@ if status is-interactive
     alias df='df -h'
     alias free='free -h'
 
+    alias l="ls -lah"
+
     alias ve="python -m venv .venv"
     alias va="source .venv/bin/activate.fish"
     alias pipr="pip install -r requirements.txt"
