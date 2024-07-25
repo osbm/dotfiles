@@ -9,7 +9,10 @@ make-directories:
 	mkdir -p ~/Pictures/screenshots
 	mkdir -p ~/Documents/bin
 	mkdir -p ~/Documents/git
-	mkdir -p ~/Documents/temp	
+	mkdir -p ~/Documents/temp
+	mkdir -p ~/Videos/obs-recordings
+	mkdir -p ~/Videos/youtube
+
 
 install-programs-pacman:
 	sudo pacman -S tmux alacritty trash-cli git git-lfs spectacle unzip docker docker-compose pyenv libreoffice-still obsidian tlrc
@@ -29,8 +32,8 @@ link:
 	ln -sf $(DOTFILES_DIR)/.config/tmux/tmux.conf ~/.config/tmux/tmux.conf
 	ln -sf $(DOTFILES_DIR)/.config/Code/User/settings.json ~/.config/Code/User/settings.json
 	ln -sf $(DOTFILES_DIR)/.config/tlrc/config.toml ~/.config/tlrc/config.toml
-	
-	
+
+
 
 install-tpm:
 	git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
