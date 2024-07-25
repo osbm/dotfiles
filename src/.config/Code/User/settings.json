@@ -9,5 +9,6 @@
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.defaultProfile.linux": "fish",
     "workbench.colorTheme": "Gruvbox Dark Hard",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "files.trimTrailingWhitespace": true
 }
