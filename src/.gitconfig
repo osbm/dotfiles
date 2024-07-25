@@ -17,3 +17,7 @@
 	clean = git-lfs clean -- %f
 [alias]
 	bb = "!/home/osbm/Documents/dotfiles/scripts/better-git-branch.sh"
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
