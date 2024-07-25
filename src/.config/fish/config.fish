@@ -20,9 +20,21 @@ if status is-interactive
     alias pipr="pip install -r requirements.txt"
     alias pipu="pip install --upgrade pip"
     alias py="ipython"
+    alias music-download="docker run -v /home/osbm/Music:/downloads yt -x --audio-format mp3"
+    alias yt="docker run -v /home/osbm/Videos/youtube:/downloads yt"
 
-    pyenv init - | source
-    zoxide init fish | source
+    if type -q pyenv
+        pyenv init - | source
+    else
+        echo "pyenv not found"
+    end
+
+    if type -q zoxide
+        zoxide init fish | source
+    else
+        echo "zoxide not found"
+    end
+
 end
 
 # >>> conda initialize >>>
