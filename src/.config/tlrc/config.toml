@@ -3,7 +3,7 @@ dir = "/home/osbm/.cache/tlrc"
 mirror = "https://github.com/tldr-pages/tldr/releases/latest/download"
 auto_update = true
 max_age = 336
-languages = []
+languages = ["en", "tr", "ja"]
 
 [output]
 show_title = false
