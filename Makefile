@@ -33,7 +33,7 @@ link:
 
 	ln -sf $(DOTFILES_DIR)/.gitconfig ~/.gitconfig
 	ln -sf $(DOTFILES_DIR)/.ssh/config ~/.ssh/config
-	ln -sf $(DOTFILES_DIR)/.config/alacritty/ ~/.config/alacritty/alacritty.toml
+	ln -sf $(DOTFILES_DIR)/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
 	ln -sf $(DOTFILES_DIR)/.config/tmux/tmux.conf ~/.config/tmux/tmux.conf
 	ln -sf $(DOTFILES_DIR)/.config/flameshot/flameshot.ini ~/.config/flameshot/flameshot.ini
 	ln -sf $(DOTFILES_DIR)/.config/Code/User/settings.json ~/.config/Code/User/settings.json
