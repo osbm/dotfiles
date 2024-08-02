@@ -27,6 +27,7 @@ link:
 	mkdir -p ~/.config/alacritty
 	mkdir -p ~/.config/flameshot
 	mkdir -p ~/.config/Code/User
+	mkdir -p ~/.config/tlrc
 
 	ln -sf $(DOTFILES_DIR)/.config/fish/ ~/.config/fish
 	ln -sf $(DOTFILES_DIR)/.config/obs-studio/ ~/.config/obs-studio
