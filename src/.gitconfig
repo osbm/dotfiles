@@ -21,3 +21,7 @@
 	ui = auto
 [branch]
 	sort = -committerdate
+[maintenance]
+	repo = /home/osbm/Pictures/wallpapers
+	repo = /home/osbm/Documents/rerouting
+	repo = /home/osbm/Documents/dotfiles
