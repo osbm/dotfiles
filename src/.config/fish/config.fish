@@ -23,6 +23,8 @@ if status is-interactive
     alias music-download="docker run -v /home/osbm/Music:/downloads yt -x --audio-format mp3"
     alias yt="docker run -v /home/osbm/Videos/youtube:/downloads yt"
 
+    alias c="code ."
+
     if type -q pyenv
         pyenv init - | source
     else
