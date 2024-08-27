@@ -20,11 +20,14 @@ install-programs-pacman:
 link:
 	# delete directories if they exist
 	rm -rf ~/.config/alacritty
+	rm -rf ~/.config/kitty
+
 	rm -rf ~/.config/fish
 	rm -rf ~/.config/obs-studio
 	rm -rf ~/.config/flameshot
 
 	mkdir -p ~/.config/alacritty
+	mkdir -p ~/.config/kitty
 	mkdir -p ~/.config/flameshot
 	mkdir -p ~/.config/Code/User
 	mkdir -p ~/.config/tlrc
@@ -35,6 +38,7 @@ link:
 	ln -sf $(DOTFILES_DIR)/.gitconfig ~/.gitconfig
 	ln -sf $(DOTFILES_DIR)/.ssh/config ~/.ssh/config
 	ln -sf $(DOTFILES_DIR)/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
+	ln -sf $(DOTFILES_DIR)/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 	ln -sf $(DOTFILES_DIR)/.config/tmux/tmux.conf ~/.config/tmux/tmux.conf
 	ln -sf $(DOTFILES_DIR)/.config/flameshot/flameshot.ini ~/.config/flameshot/flameshot.ini
 	ln -sf $(DOTFILES_DIR)/.config/Code/User/settings.json ~/.config/Code/User/settings.json
