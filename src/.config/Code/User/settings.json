@@ -10,5 +10,7 @@
     "terminal.integrated.defaultProfile.linux": "fish",
     "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.iconTheme": "vscode-icons",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.gpuAcceleration": "off",
+    "update.mode": "none"
 }
