@@ -3,6 +3,7 @@ if status is-interactive
     set -gx PATH /opt/cuda/bin $PATH
     set -gx LD_LIBRARY_PATH /opt/cuda/lib64 $LD_LIBRARY_PATH
     set -g fish_greeting
+    set -gx EDITOR "nvim"
 
     # nnn configuration
     # H - show hidden files
@@ -24,6 +25,8 @@ if status is-interactive
     alias yt="docker run -v /home/osbm/Videos/youtube:/downloads yt"
 
     alias c="code ."
+
+
 
     if type -q pyenv
         pyenv init - | source
