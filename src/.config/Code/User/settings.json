@@ -12,5 +12,6 @@
     "workbench.iconTheme": "vscode-icons",
     "files.trimTrailingWhitespace": true,
     "terminal.integrated.gpuAcceleration": "off",
-    "update.mode": "none"
+    "update.mode": "none",
+    "workbench.startupEditor": "none"
 }
