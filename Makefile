@@ -38,6 +38,7 @@ link:
 	ln -sf $(DOTFILES_DIR)/.config/nvim ~/.config/nvim
 
 	ln -sf $(DOTFILES_DIR)/.gitconfig ~/.gitconfig
+	ln -sf $(DOTFILES_DIR)/.gitignore ~/.gitignore
 	ln -sf $(DOTFILES_DIR)/.ssh/config ~/.ssh/config
 	ln -sf $(DOTFILES_DIR)/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
 	ln -sf $(DOTFILES_DIR)/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf

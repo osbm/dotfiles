@@ -1,15 +1,16 @@
 [user]
-    name = osbm
-    email = osmanfbayram@gmail.com
+	name = osbm
+	email = osmanfbayram@gmail.com
 [credential]
-    helper = store
+	helper = store
 [core]
-    pager = cat
-    editor = nano
+	pager = cat
+	editor = nano
+	excludesFile = ~/.gitignore
 [push]
-    autoSetupRemote = true
+	autoSetupRemote = true
 [init]
-    defaultBranch = main
+	defaultBranch = main
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
