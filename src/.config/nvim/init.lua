@@ -12,6 +12,9 @@ end)
 vim.opt.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
+vim.g.python_host_prog = "~/Documents/bin/neovim-venv/bin/python"
+vim.g.python3_host_prog = "~/Documents/bin/neovim-venv/bin/python"
+
 require("config.lazy")
 
 require("mason").setup()
