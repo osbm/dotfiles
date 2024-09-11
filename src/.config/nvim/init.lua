@@ -14,3 +14,6 @@ vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
 require("config.lazy")
 
+require("mason").setup()
+require("mason-lspconfig").setup()
+
