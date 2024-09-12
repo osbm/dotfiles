@@ -30,7 +30,9 @@ require("lazy").setup({
       "williamboman/mason.nvim",
       "williamboman/mason-lspconfig.nvim",
       "neovim/nvim-lspconfig",
-    }
+      "nvim-tree/nvim-tree.lua"
+    },
+    {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"}
 
   },
   -- Configure any other settings here. See the documentation for more details.

@@ -20,3 +20,13 @@ require("config.lazy")
 require("mason").setup()
 require("mason-lspconfig").setup()
 
+
+local lspconfig = require('lspconfig')
+lspconfig.pyright.setup {
+}
+
+require("nvim-tree").setup()
+
+if vim.fn.argc(-1) == 0 then
+  vim.cmd("NvimTreeOpen")
+end
