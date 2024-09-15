@@ -21,8 +21,8 @@ if status is-interactive
     alias pipr="pip install -r requirements.txt"
     alias pipu="pip install --upgrade pip"
     alias py="ipython"
-    alias music-download="docker run -v /home/osbm/Music:/downloads yt -x --audio-format mp3"
-    alias yt="docker run -v /home/osbm/Videos/youtube:/downloads yt"
+    alias music-download="docker run --rm -v /home/osbm/Music:/downloads yt -x --audio-format mp3"
+    alias yt="docker run --rm -v /home/osbm/Videos/youtube:/downloads yt"
 
     alias c="code ."
 
