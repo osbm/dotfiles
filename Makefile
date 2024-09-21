@@ -20,6 +20,7 @@ install-programs-pacman:
 link:
 	# delete directories if they exist
 	rm -rf ~/.config/alacritty
+	rm -rf ~/.config/mpv
 	rm -rf ~/.config/kitty
 
 	rm -rf ~/.config/fish
@@ -28,6 +29,7 @@ link:
 	rm -rf ~/.config/nvim
 
 	mkdir -p ~/.config/alacritty
+	mkdir -p ~/.config/mpv
 	mkdir -p ~/.config/kitty
 	mkdir -p ~/.config/flameshot
 	mkdir -p ~/.config/Code/User
@@ -41,6 +43,7 @@ link:
 	ln -sf $(DOTFILES_DIR)/.gitignore ~/.gitignore
 	ln -sf $(DOTFILES_DIR)/.ssh/config ~/.ssh/config
 	ln -sf $(DOTFILES_DIR)/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
+	ln -sf $(DOTFILES_DIR)/.config/mpv/mpv.conf ~/.config/mpv/mpv.conf
 	ln -sf $(DOTFILES_DIR)/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 	ln -sf $(DOTFILES_DIR)/.config/tmux/tmux.conf ~/.config/tmux/tmux.conf
 	ln -sf $(DOTFILES_DIR)/.config/flameshot/flameshot.ini ~/.config/flameshot/flameshot.ini
