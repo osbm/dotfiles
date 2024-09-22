@@ -27,6 +27,7 @@ link:
 	rm -rf ~/.config/obs-studio
 	rm -rf ~/.config/flameshot
 	rm -rf ~/.config/nvim
+	rm -rf ~/.config/fcitx5
 
 	mkdir -p ~/.config/alacritty
 	mkdir -p ~/.config/mpv
@@ -38,6 +39,7 @@ link:
 	ln -sf $(DOTFILES_DIR)/.config/fish/ ~/.config/fish
 	ln -sf $(DOTFILES_DIR)/.config/obs-studio/ ~/.config/obs-studio
 	ln -sf $(DOTFILES_DIR)/.config/nvim ~/.config/nvim
+	ln -sf $(DOTFILES_DIR)/.config/fcitx5 ~/.config/fcitx5
 
 	ln -sf $(DOTFILES_DIR)/.gitconfig ~/.gitconfig
 	ln -sf $(DOTFILES_DIR)/.gitignore ~/.gitignore
