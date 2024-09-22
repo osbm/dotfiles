@@ -24,7 +24,7 @@ link:
 	rm -rf ~/.config/kitty
 
 	rm -rf ~/.config/fish
-	rm -rf ~/.config/obs-studio
+	# rm -rf ~/.config/obs-studio
 	rm -rf ~/.config/flameshot
 	rm -rf ~/.config/nvim
 	rm -rf ~/.config/fcitx5
@@ -37,7 +37,7 @@ link:
 	mkdir -p ~/.config/tlrc
 
 	ln -sf $(DOTFILES_DIR)/.config/fish/ ~/.config/fish
-	ln -sf $(DOTFILES_DIR)/.config/obs-studio/ ~/.config/obs-studio
+	# ln -sf $(DOTFILES_DIR)/.config/obs-studio/ ~/.config/obs-studio
 	ln -sf $(DOTFILES_DIR)/.config/nvim ~/.config/nvim
 	ln -sf $(DOTFILES_DIR)/.config/fcitx5 ~/.config/fcitx5
 
