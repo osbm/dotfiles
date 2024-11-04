@@ -13,5 +13,6 @@
     "files.trimTrailingWhitespace": true,
     "terminal.integrated.gpuAcceleration": "off",
     "update.mode": "none",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "vsicons.dontShowNewVersionMessage": true
 }
