@@ -40,10 +40,10 @@ if status is-interactive
         echo "zoxide not found"
     end
 
-    if type -q starfish
+    if type -q starship
         starship init fish | source
     else
-        echo "starfish not found"
+        echo "starship not found"
     end
 
 end
