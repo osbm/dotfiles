@@ -40,6 +40,12 @@ if status is-interactive
         echo "zoxide not found"
     end
 
+    if type -q starfish
+        starship init fish | source
+    else
+        echo "starfish not found"
+    end
+
 end
 
 # >>> conda initialize >>>
