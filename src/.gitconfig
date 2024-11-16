@@ -26,3 +26,7 @@
 	repo = /home/osbm/Pictures/wallpapers
 	repo = /home/osbm/Documents/rerouting
 	repo = /home/osbm/Documents/dotfiles
+[http]
+	postBuffer = 1048576000
+[https]
+	postBuffer = 1048576000
