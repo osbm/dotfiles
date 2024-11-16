@@ -8,7 +8,7 @@
     "github.copilot.editor.enableAutoCompletions": true,
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.defaultProfile.linux": "fish",
-    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.iconTheme": "vscode-icons",
     "files.trimTrailingWhitespace": true,
     "terminal.integrated.gpuAcceleration": "off",
