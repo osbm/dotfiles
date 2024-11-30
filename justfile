@@ -8,7 +8,7 @@ link_file path:
     rm -rf {{home_directory()}}/{{path}}
     ln -sf {{absolute_path(prepend("src/",path))}} {{home_directory()}}/{{path}}
 
-link-alacritty: (link_file ".config/alacritty/alacritty.yml")
+link-alacritty: (link_file ".config/alacritty/alacritty.toml")
     echo "Alacritty configuration linked"
 
 link-code: (link_file ".config/Code/User/settings.json")
