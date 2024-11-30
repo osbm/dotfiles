@@ -1,7 +1,7 @@
 [font]
 size = 12.0
 
-[shell]
+[terminal.shell]
 args = ["new-session", "-A", "-s", "general"]
 program = "/usr/bin/tmux"
 
