@@ -30,7 +30,7 @@ link-mpv: (link_file ".config/mpv/mpv.conf")
 link-neovim: (link_file ".config/nvim")
     echo "Neovim configuration linked"
 
-link-tlrc: (link_file ".config/tlrc/tlrc.conf")
+link-tlrc: (link_file ".config/tlrc/config.toml")
     echo "tlrc configuration linked"
 
 link-tmux: (link_file ".config/tmux/tmux.conf")
