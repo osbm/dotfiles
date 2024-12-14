@@ -51,7 +51,7 @@ link-zsh: (link_file ".zshrc") (link_file ".zprofile")
 link-bash: (link_file ".bashrc") (link_file ".bash_profile")
     echo "Bash configuration linked"
 
-link-terminal-programs: link-alacritty link-kitty link-tmux link-fish link-zsh link-bash link-neovim link-tlrc link-git link-starship
+link-terminal-programs: link-alacritty link-kitty link-tmux link-fish link-zsh link-bash link-tlrc link-git link-starship
     echo "Terminal programs configuration linked"
 
 link-all: link-terminal-programs link-code link-fcitx5 link-flameshot link-mpv
