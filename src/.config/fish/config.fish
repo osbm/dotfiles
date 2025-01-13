@@ -28,11 +28,11 @@ if status is-interactive
 
 
 
-    if type -q pyenv
-        pyenv init - | source
-    else
-        echo "pyenv not found"
-    end
+    # if type -q pyenv
+    #    pyenv init - | source
+    # else
+    #    echo "pyenv not found"
+    # end
 
     if type -q zoxide
         zoxide init fish | source
