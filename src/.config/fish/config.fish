@@ -26,6 +26,10 @@ if status is-interactive
 
     alias c="code ."
 
+    # if $TERM is dumb set it to xterm-256color
+    if test "$TERM" = "dumb"
+        set -x TERM xterm-256color
+    end
 
 
     # if type -q pyenv
